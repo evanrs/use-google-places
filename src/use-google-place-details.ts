@@ -2,9 +2,9 @@ import { useContext, useEffect, useMemo } from "react";
 import { useLatestVersion } from "use-latest-version";
 import { nanoid } from "nanoid";
 
-import { context } from "./context";
-import { TypedResponse } from "./tools";
 import { GooglePlaceDetails, GooglePlaceDetailsResult, Status } from "./types";
+import { TypedResponse } from "./tools";
+import { context } from "./context";
 
 export type UseGooglePlaceDetailsProps = {
   /**

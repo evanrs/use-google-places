@@ -28,7 +28,7 @@ export type GooglePlacePrediction = google.maps.places.AutocompletePrediction;
 export type GooglePlaceDetails = google.maps.places.PlaceResult;
 export type GoogleGeocoderAddressComponent = google.maps.GeocoderAddressComponent;
 
-export type GooglePredictionResult = {
+export type GooglePlacePredictionsResult = {
   input: string;
   results: GooglePlacePrediction[];
   status: Status;

@@ -2,8 +2,13 @@ import { useContext, useEffect, useMemo } from "react";
 import { useLatestVersion } from "use-latest-version";
 import { nanoid } from "nanoid";
 
+import {
+  GooglePlacePredictionsResult,
+  GooglePlacePrediction,
+  GooglePlaceType,
+  Status,
+} from "./types";
 import { TypedResponse } from "./tools";
-import { GooglePredictionResult, GooglePlacePrediction, GooglePlaceType, Status } from "./types";
 import { context } from "./context";
 
 // TODO implement origin
@@ -46,7 +51,7 @@ type PlacePredictionsData = {
 };
 
 const defaults = {
-  get prediction(): GooglePredictionResult {
+  get prediction(): GooglePlacePredictionsResult {
     return {
       input: "",
       results: [],
