@@ -29,7 +29,7 @@ type GooglePlaceDetailsData = {
 const defaults = {
   get details(): GooglePlaceDetailsResult {
     return {
-      status: "LOADING",
+      status: "OK",
     };
   },
 };
