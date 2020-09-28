@@ -12,7 +12,7 @@ Currently limited to place predictions and details.
 import {
   useGooglePlacePredictions,
   useGooglePlaceDetails,
-} from 'use-google-places`
+} from 'use-google-places-api'
 ```
 
 ### useGooglePlacePredictions
