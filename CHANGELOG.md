@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/evanrs/use-google-places/compare/v0.0.4...v0.0.5) (2020-09-28)
+
+
+### Features
+
+* include types export ([e994a4f](https://github.com/evanrs/use-google-places/commit/e994a4f56ae5c4cb25f9aec23340fdcdb0249030))
+
 ### [0.0.4](https://github.com/evanrs/use-google-places/compare/v0.0.3...v0.0.4) (2020-09-28)
 
 
