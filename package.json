@@ -1,5 +1,5 @@
 {
-  "name": "use-google-places",
+  "name": "use-google-places-api",
   "version": "0.0.2",
   "description": "React hooks for Google Places API",
   "main": "dist/use-google-places.js",
