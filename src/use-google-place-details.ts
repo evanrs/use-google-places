@@ -1,6 +1,6 @@
 import { useContext, useEffect, useMemo } from "react";
 import { useLatestVersion } from "use-latest-version";
-import { nanoid } from "nanoid";
+import { nanoid } from "nanoid/non-secure";
 
 import { GooglePlaceDetails, GooglePlaceDetailsResult, Status } from "./types";
 import { TypedResponse } from "./tools";
