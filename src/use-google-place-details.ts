@@ -34,7 +34,7 @@ const defaults = {
   },
 };
 
-export function useGoogleMapsPlaceDetails({ key, id }: UseGooglePlaceDetailsProps) {
+export function useGooglePlaceDetails({ key, id }: UseGooglePlaceDetailsProps) {
   const { fetch } = useContext(context);
 
   const session = useMemo(nanoid, []);
