@@ -1,6 +1,6 @@
 {
   "name": "use-google-places-api",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "React hooks for Google Places API",
   "main": "dist/use-google-places.js",
   "umd:main": "dist/use-google-places.umd.js",

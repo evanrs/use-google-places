@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/evanrs/use-google-places/compare/v0.0.8...v0.0.9) (2020-09-28)
+
+
+### Bug Fixes
+
+* switch to nanoid/non-secure ([5521f03](https://github.com/evanrs/use-google-places/commit/5521f03486b453f5b286c130acd093e9e4c1faf8))
+
 ### [0.0.8](https://github.com/evanrs/use-google-places/compare/v0.0.7...v0.0.8) (2020-09-28)
 
 ### [0.0.7](https://github.com/evanrs/use-google-places/compare/v0.0.6...v0.0.7) (2020-09-28)
