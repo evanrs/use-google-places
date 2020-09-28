@@ -8,11 +8,11 @@
 
 Currently limited to place predictions and details.
 
-```
+```typescript
 import {
   useGooglePlacePredictions,
   useGooglePlaceDetails,
-} from 'use-google-places
+} from 'use-google-places`
 ```
 
 ## License
